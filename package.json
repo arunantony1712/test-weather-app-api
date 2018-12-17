@@ -1,0 +1,28 @@
+{
+  "name": "test-weather-app-api",
+  "version": "1.0.0",
+  "description": "<h4>What this APP do</h4>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunantony1712/test-weather-app-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunantony1712/test-weather-app-api/issues"
+  },
+  "homepage": "https://github.com/arunantony1712/test-weather-app-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.377.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
