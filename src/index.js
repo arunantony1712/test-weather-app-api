@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-// const dynamoDB = new AWS.DynamoDB({apiVersion: '2012-08-10'});
+// todo: connect to DynamoDB and openweather.org
 
 exports.handler = (event, context, callback) => {
     if (event && event.city) {
