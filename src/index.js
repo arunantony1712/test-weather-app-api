@@ -1,4 +1,5 @@
 const AWS = require('aws-sdk');
+
 var WeatherForecastService = require("./weather-forecast-service");
 
 exports.handler = (event, context, callback) => {
