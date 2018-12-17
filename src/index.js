@@ -5,19 +5,19 @@ exports.handler = (event, context, callback) => {
     if (event && event.city) {
         let temp5 = [];
         switch(event.city) {
-            case 'Sydney': {
+            case 'London': {
                 temp5 = [11, 1, -3, 0, -2];
                 break;
             }
-            case 'Tokyo': {
+            case 'Amsterdam': {
                 temp5 = [1, -3, -5, 5, -3];
                 break;
             }
-            case 'NewYork': {
+            case 'Moscow': {
                 temp5 = [0, 7, 6, 10, 4];
                 break;
             }
-            case 'London1': {
+            case 'Berlin': {
                 temp5 = [12, 7, -5, 0, 6];
                 break;
             }
@@ -28,10 +28,10 @@ exports.handler = (event, context, callback) => {
         callback(null, temp5);
     } else {
         const initialVal = [
-            {cityName : 'London1', temperatureNow: 2},
-            {cityName : 'NewYork', temperatureNow: 8},
-            {cityName : 'Tokyo', temperatureNow: 16},
-            {cityName : 'Sydney', temperatureNow: 22},
+            {cityName : 'London', temperatureNow: 2},
+            {cityName : 'Amsterdam', temperatureNow: 8},
+            {cityName : 'Moscow', temperatureNow: 16},
+            {cityName : 'Berlin', temperatureNow: 22},
         ];
        callback(null, initialVal);
     }
